@@ -1,11 +1,11 @@
 DROP DATABASE IF EXISTS cars;
-CREATE DATABASE cars; 
+CREATE DATABASE cars;
 USE cars;
 
 -- -----------------------------------------------------
 -- Table `cars`.`cars`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `cars`.`cars` (
+CREATE TABLE IF NOT EXISTS `coche` (
   `car_id` INT NOT NULL,
   `manufacturer` VARCHAR(20) NOT NULL,
   `model` VARCHAR(20) NOT NULL,
